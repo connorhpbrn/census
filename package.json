@@ -1,0 +1,17 @@
+{
+  "name": "census",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Personal Telegram money agent. Reads a bank via TrueLayer, tracks subscriptions, answers spend questions.",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts"
+  },
+  "engines": {
+    "bun": ">=1.4.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
